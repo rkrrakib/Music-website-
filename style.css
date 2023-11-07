@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@200;300&family=Quicksand:wght@500&family=Roboto:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgb(60, 0, 116);
+    color: white;
+}
+
+.header ul a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.navbar li{
+    padding-right: 20px;
+    transition: 0.5s;
+
+}
+
+
+.navbar li:hover{
+    color: aqua;
+    font-size: 20px;
+}
+
+.logo p{
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+ /* Header compleate */
+
+.pimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/hero_image.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+.pimg-text{
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 20px black;
+    cursor: pointer;
+}
+
+.pimg-text h1{
+    font-size: 70px;
+    margin-bottom: 25px;
+}
+
+.pimg-text h2{
+    margin-bottom: 25px;
+}
+
+.pimg-text p{
+    padding:0px 350px;
+    text-align: justify;
+}
+
+/* Hero  section compleate */
+
+
+.music-part{
+    height: 700px;
+    background-color: rgb(51, 6, 94);
+    color: white;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.music-part h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.music-part h2{
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+.music-part h3{
+    padding: 0px 150px;
+    text-align:center;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.music-part button{
+    margin-bottom: 30px;
+    font-size: 20px;
+    height: 45px;
+    width: 200px;
+    background-color: red;
+    color: rgb(255, 252, 252);
+    border: none;
+    border-radius: 3px;
+    transition: 0.5s;
+}
+.music-part button:hover{
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    color: black;
+    font-weight: 500;
+    transform:scale(1.05);
+}
+
+.music-part p{
+color: rgb(165, 165, 165);
+}
+
+.music-part img{
+    margin-top: 40px;
+}
+
+/* music part compleate */
+
+.mac-part{
+    margin-top: 500px;
+    text-align: center;
+    padding: 0px 150px;
+}
+
+.mac-part h2{
+    margin-bottom: 20px;
+}
+
+.mac-part p{
+    padding: 0px 70px;
+    text-align: center;
+    line-height: 25px;
+    color: rgb(112, 112, 112);
+    margin-bottom: 30px;
+}
+
+
+.mac-part button{
+    height: 40px;
+    width: 110px;
+    background-color: rgb(86, 4, 161);
+    color: white;
+    border: none;
+    font-size: 17px;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+
+.mac-part button:hover{
+    transform: scale(1.05);
+    border-radius: 5px;
+    box-shadow: 0 0 20px black;
+
+}
+
+.mac-part img{
+    margin-bottom: 50px;
+}
+
+/* mac-part compleate */
+
+.video-part{
+    background: url(/video.png);
+    height: 500px;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    background-attachment: fixed;
+}
+
+.video-part h2{
+    margin-top: 160px;
+    font-size: 30px;
+}
+
+.video-part p{
+    margin-top: 30px;
+    padding: 0px 80px;
+}
+
+/* video-part compleate */
+
+.gift-card{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    height: 400px;
+}
+
+.card-pic{
+    height: 250px;
+}
+
+.card-text{
+    padding: 50px;
+    margin-left: 50px;
+    text-align:justify
+}
+
+.card-text h2{
+    margin-top: 10px;
+}
+
+.card-text button{
+    height: 40px;
+    width: 110px;
+    background-color: rgb(86, 4, 161);
+    color: white;
+    border: none;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+
+/* gift-card compleate */
+
+
+.footer{
+    height: 250px;
+    background-color: rgb(34, 6, 61);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 220px;
+    text-decoration: none;
+}
+
+.footer-text ul li{
+    list-style-type: none;
+    line-height:22px;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.footer-text ul li:hover{
+    color: rgb(0, 102, 255);
+}
+
+.footer-text a{
+    text-decoration: none;
+
+}
+
+/* footer compleate */
+
+.main-footer{
+    height: 40px;
+    background-color: rgb(76, 2, 196);
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
