@@ -7,7 +7,7 @@
     font-family: 'Lato', sans-serif;
 }
 
-
+ /* Header Start */
 .header{
     display: flex;
     justify-content: space-between;
@@ -47,14 +47,15 @@
     padding: 20px;
     margin-right: 50px;
 }
+ /* Header End */
 
- /* Header compleate */
 
+ /* Hero  section Start */
 .pimg{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url(/hero_image.png);
+    background-image: url(./hero_image.png);
     background-size:cover;
     background-repeat: no-repeat;
     height: 700px;
@@ -82,10 +83,11 @@
     padding:0px 350px;
     text-align: justify;
 }
+/* Hero  section End */
 
-/* Hero  section compleate */
 
 
+/* music part Start */
 .music-part{
     height: 700px;
     background-color: rgb(51, 6, 94);
@@ -137,9 +139,10 @@ color: rgb(165, 165, 165);
 .music-part img{
     margin-top: 40px;
 }
+/* music part End */
 
-/* music part compleate */
 
+/* mac-part start */
 .mac-part{
     margin-top: 500px;
     text-align: center;
@@ -180,11 +183,12 @@ color: rgb(165, 165, 165);
 .mac-part img{
     margin-bottom: 50px;
 }
+/* mac-part End */
 
-/* mac-part compleate */
 
+/* video-part Start*/
 .video-part{
-    background: url(/video.png);
+    background: url(./video.png);
     height: 500px;
     background-position: center;
     color: white;
@@ -202,9 +206,10 @@ color: rgb(165, 165, 165);
     margin-top: 30px;
     padding: 0px 80px;
 }
+/* video-part End*/
 
-/* video-part compleate */
 
+/* gift-card Start */
 .gift-card{
     display: flex;
     justify-content: space-between;
@@ -235,11 +240,11 @@ color: rgb(165, 165, 165);
     font-size: 20px;
     transition: 0.5s;
 }
+/* gift-card End */
 
 
-/* gift-card compleate */
 
-
+/* footer Start */
 .footer{
     height: 250px;
     background-color: rgb(34, 6, 61);
@@ -266,13 +271,16 @@ color: rgb(165, 165, 165);
     text-decoration: none;
 
 }
+/* footer End */
 
-/* footer compleate */
 
-.main-footer{
+
+/* main-footer Start */
+.last-footer{
     height: 40px;
     background-color: rgb(76, 2, 196);
     color: white;
     padding: 10px;
     text-align: center;
 }
+/* main-footer end */
